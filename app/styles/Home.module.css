@@ -1,0 +1,148 @@
+.body {
+  background: #254336;
+  height: 100vh;
+  font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.initialized {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  background-color: #6B8A7A;
+  font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+
+}
+
+
+
+.AppHeader {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 70px;
+  color: #DAD3BE;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.AppHeader>div{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.AddTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 50px;
+}
+
+.AddTask>input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  box-sizing: border-box;
+
+  border-radius: 20px;
+
+  font-size: 20px;
+
+  height: 60px;
+  width: 1000px;
+  padding: 15px;
+  margin-right: 50px;
+  border: 3px solid #6B8A7A;
+
+}
+
+.AddTask>button{
+  background-color: #B7B597;
+  height: 60px;
+  width: 150px;
+  border-radius: 20px;
+  color: #254336;
+  font-size: 20px;
+
+}
+
+.AppBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.AppBody>div{
+  margin: auto;
+}
+.AppBody>div>span{
+  font-size: 50px;
+  color: white;
+}
+
+.AppBody>div>ul{
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.content{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #254336;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #DAD3BE;
+  outline: none;
+  box-sizing: border-box;
+  height: 40px;
+  font-size: 25px;
+  width: 100%;
+}
+
+.Utils{
+  height: 40px;
+  width: auto;
+  background-color: #6B8A7A;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.AppBody>div>ul>li>hr{
+  margin: 20px;
+}
+
+.walletNotConnect{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
